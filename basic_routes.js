@@ -45,4 +45,5 @@ const requestHandler = (req,res) => {
     };  
 };
 
-module.exports = requestHandler;
+module.exports = requestHandler; //adding requestHandler to node module exports
+// exported stuff can only be "read", no writing is allowed outside of this file
